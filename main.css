@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.big-lunch {
+    background: rgba(16, 18, 32, 1);
+}
+
+header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+head {
+    margin-left: 80px;
+}
+
+.headuga {
+    margin-left: 60px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.select-nura {
+    display: flex;
+    border-radius: 30px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    color: white;
+    background: rgba(16, 18, 32, 1);
+
+}
+
+.btun-fon {
+    margin-right: 60px;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background: rgba(16, 18, 32, 1);
+}
+
+button :hover {
+    transition: 300ms all ease;
+    background: rgba(191, 175, 242, 1);
+}
+
+.html-kino {
+    border-radius: 40px;
+    text-align: center;
+    width: 325px;
+    height: 140px;
+    align-items: center;
+}
+
+.fri {
+    text-align: center;
+}
+
+section {
+
+    display: flex;
+    margin-top: 80px;
+    color: white;
+    gap: 50px;
+    margin-left: 40px;
+}
+
+.fir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fri img {
+    position: relative;
+    animation: sectionAnim 2s ease-in-out infinite alternate;
+    width: 300px;
+    height: auto;
+    will-change: transform;
+}
+
+@keyframes sectionAnim {
+    0% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-25px);
+
+    }
+
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+.fri :hover {
+    transition: 300ms all ease;
+    background-color: gray;
+    border-radius: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+.footer-start {
+    display: flex;
+    gap: 947px;
+    color: white;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
